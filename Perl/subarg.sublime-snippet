@@ -2,11 +2,12 @@
 	<content><![CDATA[
 sub ${1:subname} {
 	${2:my \$self = shift;
-	}my $args = {
+	}my \$args = {
+		${3:arg1 => 2,}
 		@_
 	};
 
-	${3:#body}
+	${4:#body}
 	
 	return 0;
 }
