@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+[% SWITCH ${1:expr} -%]
+[%   CASE ${2:value1} -%]
+          ${3:block...}
+[%   CASE ${4:value2} -%]
+          ${5:block...}
+[%   CASE # default case -%]
+          ${6:block...}
+[% END -%]
+
+]]></content>
+	<tabTrigger>switch</tabTrigger>
+	<scope>source.tt2,text.html.tt2,source.tt3,text.html.tt3</scope>
+	<description>SWITCH</description>
+</snippet>

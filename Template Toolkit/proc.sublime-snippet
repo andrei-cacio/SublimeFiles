@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[% PROCESS ${1:template} %]
+
+]]></content>
+	<tabTrigger>proc</tabTrigger>
+	<scope>source.tt2,text.html.tt2,source.tt3,text.html.tt3</scope>
+	<description>PROCESS</description>
+</snippet>

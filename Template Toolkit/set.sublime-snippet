@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[% SET ${1:var} = ${2:expr} %]
+
+]]></content>
+	<tabTrigger>set</tabTrigger>
+	<scope>source.tt2,text.html.tt2,source.tt3,text.html.tt3</scope>
+	<description>SET</description>
+</snippet>

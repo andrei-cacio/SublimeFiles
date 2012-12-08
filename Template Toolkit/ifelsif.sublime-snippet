@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+[% IF ${1:expr} -%]
+   ${2:block...}
+[% ELSIF ${3:expr} -%]
+   ${4:block...}
+[% END %]
+
+]]></content>
+	<tabTrigger>ifelsif</tabTrigger>
+	<scope>source.tt2,text.html.tt2,source.tt3,text.html.tt3</scope>
+	<description>IF ELSIF</description>
+</snippet>

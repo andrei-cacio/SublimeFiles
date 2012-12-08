@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+[% WRAPPER ${1:template} ${2:args...} %]
+   ${3:content...}
+[% END %]
+
+]]></content>
+	<tabTrigger>wrapa</tabTrigger>
+	<scope>source.tt2,text.html.tt2,source.tt3,text.html.tt3</scope>
+	<description>WRAPPER args</description>
+</snippet>

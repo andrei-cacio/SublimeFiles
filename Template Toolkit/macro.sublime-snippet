@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+[% MACRO ${1:name}
+         ${2:directive}
+%]
+
+]]></content>
+	<tabTrigger>macro</tabTrigger>
+	<scope>source.tt2,text.html.tt2,source.tt3,text.html.tt3</scope>
+	<description>MACRO</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[% USE ${1:plugin}(${2:args}) %]
+
+]]></content>
+	<tabTrigger>use</tabTrigger>
+	<scope>source.tt2,text.html.tt2,source.tt3,text.html.tt3</scope>
+	<description>USE</description>
+</snippet>
