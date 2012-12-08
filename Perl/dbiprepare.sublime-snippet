@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+my \$${1:sth} = \$dbh->prepare(${2:""});
+\$${1:sth}->execute(${3});
+
+]]></content>
+	<tabTrigger>dbiprepare</tabTrigger>
+	<scope>source.perl</scope>
+</snippet>

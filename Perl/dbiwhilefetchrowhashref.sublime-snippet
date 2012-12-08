@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-while (my \$${1:ref} = \$${2:dbh}->fetchrow_hashref()) {
+while (my \$${1:ref} = \$${2:sth}->fetchrow_hashref()) {
 	${3}
 }
 
